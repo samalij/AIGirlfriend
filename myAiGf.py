@@ -53,7 +53,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.memory import ConversationBufferMemory
 LANGCHAIN_TRACING_V2=True
 LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-LANGCHAIN_API_KEY="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"
+LANGCHAIN_API_KEY=""
 LANGCHAIN_PROJECT="pr-prickly-rim-17"
 import pyaudio
 import wave
@@ -64,7 +64,7 @@ import os
 openai.api_key= os.environ.get("OPENAI-API-KEY")
 client = openai.OpenAI()
 import azure.cognitiveservices.speech as speechsdk
-speech_key = "3347a55440864057bc764dd36f1ee1c1"
+speech_key = ""
 service_region = "eastus"
 
 # Set API keys
